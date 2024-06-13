@@ -89,7 +89,8 @@ function FullPage() {
 
     return (
         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100vh', backgroundColor: '#f0f8ff', color: '#333', textAlign: 'center' }}>
-            <h1 style={{ marginBottom: '20px', color: '#2c3e50' }}>Behöver du en ursäkt?</h1>
+            <h1 style={{ marginBottom: '20px', color: '#2c3e50' }}>Ibland blir det fel!</h1>
+            <h2 style={{ marginBottom: '20px', color: '#2c3e50' }}>Förlåt!</h2>
             <button
                 ref={buttonRef}
                 style={{
